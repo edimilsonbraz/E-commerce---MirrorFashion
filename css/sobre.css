@@ -1,11 +1,62 @@
+header {
+    position: relative;
+}
+
 body {
     color: #333333;
-    font-family: lucida Sans 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 940px;
     
 }
+
+.container {
+    margin: 0px auto;
+    width: 940px;
+    
+}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    font-size: 14px;
+    padding-top: 8px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+    margin: auto;
+    
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
 
 h1 {
     background-image: url('../img/sobre-background.jpg');

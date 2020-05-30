@@ -3,7 +3,7 @@ header {
 }
 
 .container {
-    margin: 0 auto;
+    margin: 10PX auto;
     width: 940px;
     border: 1px solid #333333;
 }
@@ -33,11 +33,13 @@ header {
 
 .menu-opcoes ul {
     font-size: 15px;
+    
 }
 
 .menu-opcoes ul li {
     display: inline;
     margin-left: 20px;
+    
 }
 
 .menu-opcoes a {
