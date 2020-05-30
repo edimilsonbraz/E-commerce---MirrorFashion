@@ -2,6 +2,11 @@ header {
     position: relative;
 }
 
+body {
+    color: #333333;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
 .container {
     margin: 10PX auto;
     width: 940px;
@@ -46,7 +51,12 @@ header {
     color: #003366;
 }
 
-body {
-    color: #333333;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+.busca,
+.menu-departamentos {
+    float: left;
+}
+
+.menu-departamentos {
+    clear: left;
+    text-transform: uppercase;
 }
