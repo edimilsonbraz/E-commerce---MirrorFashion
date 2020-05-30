@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <header class="container"><!-- Cabeçalho -->
+    <header class="container"><!--Inicio do Cabeçalho -->
 
         <h1><img src="img/logo.png" alt="Mirror Fashion"></h1>
 
@@ -24,39 +24,50 @@
             </ul>
         </nav>
         
-    </header>
+    </header><!-- Fim do Cabeçalho-->
 
-    <div id="main"><!--Conteudo Principal-->
+    <div class="container destaque"><!--Conteudo Principal-->
 
-        <!--Div de Busca-->
-        <div class="busca">Busca
+        <!--Seção de Busca-->
+        <section class="busca">
+            <h2>Busca</h2>
+
             <form  action="">
                  <input type="search">
                  <button>Buscar</button>
             </form>
-        </div>
-        <!--Fim da div de Busca-->
+        </section>
+        <!--Fim da secao de Busca-->
 
         <!-- Inicio do Menu Departamento -->
-        <nav class="menu-departamentos">
-            <ul>
-                <li><a href="http://">Departamentos</a></li>
-                <li><a href="http://">Blusas e Camisas</a> </li>
-                <li><a href="http://">Calças</a> </li>
-                <li><a href="#">Saias</a></li>
-                <li><a href="#">Vestidos</a></li>
-                <li><a href="#">Sapatos</a></li>
-                <li><a href="#">Bolsas e Carteiras</a></li>
-                <li><a href="http://">Acessórios</a></li>
-            </ul>
-        </nav>
+        <section class="menu-departamentos">
+            <h2 id="departamento">Departamentos</h2>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Blusas e Camisas</a> </li>
+                        <li><a href="#">Calças</a> </li>
+                        <li><a href="#">Saias</a></li>
+                        <li><a href="#">Vestidos</a></li>
+                        <li><a href="#">Sapatos</a></li>
+                        <li><a href="#">Bolsas e Carteiras</a></li>
+                        <li><a href="#">Acessórios</a></li>
+                    </ul>
+                </nav>    
+        </section>
         <!-- Fim do Menu Departamento -->
 
-        <img src="img/destaque-home.png" alt="Foto destaque da Home">
+        <!-- Banner destaque-->
+        <section class="banner-destaque">
+            <figure>
+                <img src="img/destaque-home.png" alt="Promoção: Big City Night">
+            </figure>
+        </section>
+        <!-- Fim do Banner destaque-->
 
-        
-
-    </div><!-- Fim do Conteudo Principal-->
+    </div>
+      <!-- Fim do Container Principal-->
+    
 
     <div id="destaques"><!--Painéis com Destaques-->
         
